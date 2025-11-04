@@ -1,4 +1,4 @@
-Surface Roughness Prediction using Machine Learning
+#Surface Roughness Prediction using Machine Learning
 
 📘 An industrial analytics project predicting surface roughness (Ra) using CNC machining parameters.
 

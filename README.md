@@ -1,41 +1,23 @@
-#Surface Roughness Prediction using Machine Learning
+# Surface Roughness Prediction using Machine Learning
 
-📘 An industrial analytics project predicting surface roughness (Ra) using CNC machining parameters.
+📘 Predicting CNC surface roughness (Ra) using process parameters like cutting speed, feed rate, and depth of cut.
 
-🎯 Objective
+## 🎯 Objective
+To build a regression-based model that predicts surface finish quality using machining data.
 
-To develop a regression-based model that predicts the surface finish quality of machined parts based on process parameters like cutting speed, feed rate, and depth of cut.
+## ⚙️ Workflow
+- Performed EDA using Pandas & Matplotlib
+- Built Multiple Linear Regression model (statsmodels & sklearn)
+- Checked multicollinearity (VIF)
+- Evaluated model (R², RMSE)
+- Generated realistic industrial dataset (150 samples)
 
-⚙️ Workflow
+## 🧰 Tech Stack
+Python · Pandas · NumPy · Matplotlib · Seaborn · Statsmodels · Scikit-learn
 
-Collected and generated realistic machining data (150 samples)
+## 📂 Files
+- `Surface_Roughness_Prediction.ipynb` — Colab notebook
+- `Industry_Surface_Roughness_Data.xlsx` — dataset
 
-Conducted Exploratory Data Analysis (EDA)
-
-Implemented Multiple Linear Regression (MLR) and compared results
-
-Analyzed multicollinearity using Variance Inflation Factor (VIF)
-
-Visualized relationships using Seaborn and Matplotlib
-
-📈 Results
-
-Identified feed rate as the most significant factor affecting Ra
-
-Demonstrated strong correlation between model predictions and actual Ra values
-
-Insights can be used for tool path optimization in manufacturing
-
-🧰 Tech Stack
-
-Python, pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn
-
-📂 Dataset
-
-Included in the repository: Industry_Surface_Roughness_Data.xlsx
-
-🧠 Future Scope
-
-Compare with non-linear models (Random Forest, SVR)
-
-Deploy as a simple Streamlit dashboard for real-time prediction
+## 📎 Open Notebook in Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/surface-roughness-prediction-ml/blob/main/Surface_Roughness_Prediction.ipynb)
